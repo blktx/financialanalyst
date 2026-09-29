@@ -44,7 +44,7 @@ def load_stocks(tickers, group_type):
                 round(price, 2),
                 round(info.get("trailingPE"), 2)       if info.get("trailingPE")     else None,
                 round(info.get("trailingEps"), 2)      if info.get("trailingEps")    else None,
-                round((info.get("dividendYield") or 0) * 100, 2),
+                round((info.get("dividendYield") or 0) , 2),
                 round((info.get("marketCap") or 0) / 1e9, 1),
                 group_type,
                 datetime.now().strftime("%Y-%m-%d %H:%M"),

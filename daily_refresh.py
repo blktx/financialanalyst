@@ -33,7 +33,7 @@ def refresh_ticker(conn, ticker, group_type):
         # ── Basic ──────────────────────────────────────────────
         pe_ratio      = info.get("trailingPE")
         eps           = info.get("trailingEps")
-        div_yield     = (info.get("dividendYield") or 0) * 100
+        div_yield     = (info.get("dividendYield") or 0)
         market_cap_b  = (info.get("marketCap") or 0) / 1e9
 
         # ── Fundamentals ───────────────────────────────────────
