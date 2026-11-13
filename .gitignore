@@ -1,0 +1,6 @@
+*.db
+*.xlsx
+*.txt
+*.sqbpro
+__pycache__/
+.DS_Store

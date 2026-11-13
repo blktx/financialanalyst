@@ -7,7 +7,8 @@ A learning portfolio combining Python, SQLite, and Power BI to collect stock dat
 - [Phase 1](Phase1_README.md): stock data collection and database workflow.
 - [Phase 2](Phase2_README.md): analysis and reporting.
 - [Power BI dashboard](PowerBI_README.md): dashboard and Excel snapshot in [powerbi/](powerbi/).
-- [Phase 3 practice prototype](DIVIDEND_SCORING.md): dividend scoring with Python and CSV export. This phase is in progress.
+- [Phase 3 — Scoring Model](Phase3_README.md): Version 1 complete (November 13, 2026), including SQL ranking, sector valuation flags, weekly Gmail digest, a dividend-cut scenario, and validation.
+- [Original scoring prototype](DIVIDEND_SCORING.md): initial Python scoring and CSV export.
 
 ## Dividend scoring
 
